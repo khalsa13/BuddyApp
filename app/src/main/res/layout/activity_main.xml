@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/bg"
+    tools:context="com.example.super_singh.buddyapp.MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_marginTop="230dp"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textColorLink="@color/iconsColor"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:text="@string/Appname"
+        android:textColor="@color/iconsColor"
+        tools:ignore="RtlHardcoded"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:id="@+id/AppName" />
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/gmailSignIn"
+        android:text="@string/gmail"
+        android:textColor="@android:color/white"
+        app:shadowColor="@android:color/black"
+        app:shadowEnabled="true"
+        app:shadowHeight="2dp"
+        app:cornerRadius="4dp"
+        app:buttonColor="@color/btnSignUp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/AppName"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/AppName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp">
+        <info.hoang8f.widget.FButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnSignUp"
+            android:text="@string/signup"
+            android:textColor="@android:color/white"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="2dp"
+            app:cornerRadius="4dp"
+            android:layout_margin="8dp"
+            app:buttonColor="@color/btnSignUp"/>
+
+        <info.hoang8f.widget.FButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnSignIn"
+            android:text="@string/signin"
+            android:textColor="@android:color/white"
+            app:shadowColor="@android:color/black"
+            app:shadowEnabled="true"
+            app:shadowHeight="2dp"
+            app:cornerRadius="4dp"
+            android:layout_margin="8dp"
+            app:buttonColor="@color/btnSignActive"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

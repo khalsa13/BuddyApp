@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BuddyApp</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="Appname">Companion</string>
+    <string name="gmail">Continue with Gmail</string>
+    <string name="github">Continue with GitHub</string>
+    <string name="_1234">1234</string>
+    <string name="gradYear">2019</string>
+    <string name="email_id">Email ID</string>
+    <string name="college_name">College Name</string>
+    <string name="first_name">First Name</string>
+    <string name="graduation_year">Graduation Year</string>
+    <string name="kataria">Kataria</string>
+    <string name="last_name">Last Name</string>
+    <string name="password">Password</string>
+    <string name="ramandeep">Ramandeep</string>
+    <string name="ymca">YMCA</string>
+    <string name="deep9896957769_gmail_com">deep9896957769@gmail.com</string>
+    <string name="Already">Already a registered User ?</string>
+    <string name="noAcc">Does\'nt have an account Yet?</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="signout">Sign Out</string>
+    <string name="Save">Save Credentials</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
